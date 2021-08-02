@@ -56,6 +56,9 @@ list above.
 
 ---
 
+[here](https://github.com/Carrene/dolphin/issues/263) is an exampple of
+`Nugget`.
+
 ### Tools
 
 | Problem | Solution | Why |
