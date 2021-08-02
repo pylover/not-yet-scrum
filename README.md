@@ -257,7 +257,7 @@ po -> pm: Epic(Travel to the Moon) -> Working feature
 - Namespaces are one honking great idea -- let's do more of those!
 
 
-### Solid Principle
+### SOLID Principle
 
 *from [Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/SOLID)*
 
