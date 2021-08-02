@@ -215,7 +215,7 @@ qa.title: QA & QC
 uix.title: UX & UI
 
 po -> pm: Epic(Travel to the Moon) -> Working feature
-  pm -> tc: Story(Moon landin) -> Release
+  pm -> tc: Story(Moon landing) -> Release
     if: Design needed?
       tc -> uix: Desing(Nugget) -> Wireframe & Prototype
     @tc ~ dev: |
