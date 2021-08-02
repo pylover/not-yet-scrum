@@ -62,7 +62,25 @@ list above.
 `Nugget`.
 
 
-#### BDD Test case example
+#### BDD
+
+All tests should meet the `BDD` standards:
+
+```bdd
+Feature: User trades stocks
+  Scenario: User requests a sell before close of trading
+    Given I have 100 shares of MSFT stock
+       And I have 150 shares of APPL stock
+       And the time is before close of trading
+
+    When I ask to sell 20 shares of MSFT stock
+     
+     Then I should have 80 shares of MSFT stock
+      And I should have 150 shares of APPL stock
+      And a sell order for 20 shares of MSFT stock should have been executed
+```
+
+For example:
 
 ```python
 with Given(
@@ -116,24 +134,6 @@ Code coverage is most important factor. the first commit comes with `100%`
 code coverage and should not descerased even `.0000001%` with any commit and 
 or pull request.
 
-
-### BDD
-
-All tests should meet the `BDD` standards:
-
-```bdd
-Feature: User trades stocks
-  Scenario: User requests a sell before close of trading
-    Given I have 100 shares of MSFT stock
-       And I have 150 shares of APPL stock
-       And the time is before close of trading
-
-    When I ask to sell 20 shares of MSFT stock
-     
-     Then I should have 80 shares of MSFT stock
-      And I should have 150 shares of APPL stock
-      And a sell order for 20 shares of MSFT stock should have been executed
-```
 
 Check [here](https://martinfowler.com/bliki/GivenWhenThen.html) for more info.
 
@@ -229,3 +229,30 @@ po -> pm: Epic(Travel to the Moon) -> Working feature
           qa -> dev: Feedback
     
 ```
+
+
+## Some good tips to decide what to do
+
+### The Zen of Python, by Tim Peters
+
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Simple is better than complex.
+- Complex is better than complicated.
+- Flat is better than nested.
+- Sparse is better than dense.
+- Readability counts.
+- Special cases aren't special enough to break the rules.
+- Although practicality beats purity.
+- Errors should never pass silently.
+- Unless explicitly silenced.
+- In the face of ambiguity, refuse the temptation to guess.
+- There should be one-- and preferably only one --obvious way to do it.
+- Although that way may not be obvious at first unless you're Dutch.
+- Now is better than never.
+- Although never is often better than *right* now.
+- If the implementation is hard to explain, it's a bad idea.
+- If the implementation is easy to explain, it may be a good idea.
+- Namespaces are one honking great idea -- let's do more of those!
+
+
