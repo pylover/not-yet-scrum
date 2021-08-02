@@ -80,13 +80,13 @@ list above.
         assert response.json['modifiedAt'] is None
 
         when(
-            'The organization title is exist',
+            'Organization is already exist',
             form=dict(title='organization-title')
         )
         assert status == '600 Repetitive Title'
 
         when(
-            'The title format is invalid',
+            'Title is invalid',
             form=dict(title='my organ')
         )
         assert status == '747 Invalid Title Format'
@@ -101,7 +101,7 @@ list above.
 | Issue tracking & Kanban | Github | Simplicity & Integrity |
 | Main Language(s) | Python, C, GoLang and any portable language | Ease of develop and useful tools for BDD |
 | IDE | Vim | Productivity |
-| Platform | Any Posix | Portability |
+| Platform | Any POSIX | Portability |
 
 
 ### Naming
