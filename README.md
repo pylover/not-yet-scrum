@@ -65,31 +65,31 @@ list above.
 #### BDD Test case example
 
 ```python
-    with oauth_mockup_server(),  self.given(
+with Given(
         'Creating an organization.',
         '/apiv1/organizations',
         'CREATE',
         form=dict(title=title)
     ):
-        assert status == 200
-        assert response.json['title'] == title
-        assert response.json['logo'] is None
-        assert response.json['url'] is None
-        assert response.json['domain'] is None
-        assert response.json['createdAt'] is not None
-        assert response.json['modifiedAt'] is None
+    assert status == 200
+    assert response.json['title'] == title
+    assert response.json['logo'] is None
+    assert response.json['url'] is None
+    assert response.json['domain'] is None
+    assert response.json['createdAt'] is not None
+    assert response.json['modifiedAt'] is None
 
-        when(
-            'Organization is already exist',
-            form=dict(title='organization-title')
-        )
-        assert status == '600 Repetitive Title'
+    when(
+        'Organization is already exist',
+        form=dict(title='organization-title')
+    )
+    assert status == '600 Repetitive Title'
 
-        when(
-            'Title is invalid',
-            form=dict(title='my organ')
-        )
-        assert status == '747 Invalid Title Format'
+    when(
+        'Title is invalid',
+        form=dict(title='my organ')
+    )
+    assert status == '747 Invalid Title Format'
 ```
 
 ### Tools
