@@ -1,3 +1,11 @@
+---
+“Everything should be made as simple as possible, but no simpler.” 
+
+This is one of the great quotes in science. Coming from Einstein, who 
+simplified physics into general relativity, it is a great statement of how to 
+conduct science.
+
+---
 # Not Yet Scrum
 
 I named it `not-yet-scrum` because I think the Scrum methodology is too much 
