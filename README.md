@@ -80,7 +80,11 @@ Feature: User trades stocks
       And a sell order for 20 shares of MSFT stock should have been executed
 ```
 
-For example:
+Check [here](https://martinfowler.com/bliki/GivenWhenThen.html) for more info
+about the BDD scenario.
+
+This an example of how I save the BDD skeleton in test files to increase 
+readability using the [bddrest](https://github.com/pylover/bddrest).
 
 ```python
 with Given(
@@ -133,9 +137,6 @@ naming purpose.
 Code coverage is most important factor. the first commit comes with `100%`
 code coverage and should not descerased even `.0000001%` with any commit and 
 or pull request.
-
-
-Check [here](https://martinfowler.com/bliki/GivenWhenThen.html) for more info.
 
 
 ## Workflow
