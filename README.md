@@ -77,7 +77,7 @@ naming purpose.
 
 ```
 DIAGRAM: Nugget flow                                                                                                                   
-author: pylover                                                                                                                        
+author: Vahid Mardani                                                                                                                        
 version: 1.0                                                                                                                           
                                                                                                                                        
 +---------------+              +-----------------+       +-----------------+              +---------+ +-----------+         +---------+
@@ -137,7 +137,7 @@ which is a good example of how I deal with diagrams.
 ```adia
 diagram: Nugget flow
 version: 1.0
-author: pylover
+author: Vahid Mardani
 
 sequence: 
 
