@@ -66,7 +66,7 @@ list above.
 | Version Control | GIT | Kidding Me? |
 | Remote repository | Github | Simple, Free private repos, Powerful CI/CD, Issue tracking |
 | Issue tracking & Kanban | Github | Simplicity & Integrity |
-| Main Language(s) | Python, C, GoLang and any portable language | these covers all we need as portable languages. |
+| Main Language(s) | Python, C, GoLang and any portable language | Ease of develop and useful tools for BDD |
 | IDE | Vim | Productivity |
 | Platform | Any Posix | Portability |
 
