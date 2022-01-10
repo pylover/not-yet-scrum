@@ -42,6 +42,15 @@ Example list of acceptable formats:
 - Markdown
 - Plain text
 
+### No Stand-up meetings
+
+Daily meetings are overkill. As you know, many open-source projects are
+done and or in progress without daily meetings. I think daily stand-up 
+meetings are outdated. 
+
+I think a good (descriptive) Nugget (see below) is enough for a developer to 
+deliver a feature or bugfix.
+
 ### Nugget
 
 `Nugget` is what we deliver to developers to describe them what to do.
