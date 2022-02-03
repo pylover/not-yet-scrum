@@ -48,8 +48,9 @@ Daily meetings are overkill. As you know, many open-source projects are
 done and or in progress without daily meetings. I think daily stand-up 
 meetings are outdated. 
 
-I think a good (descriptive) Nugget (see below) is enough for a developer to 
-deliver a feature or bugfix.
+I think a good (descriptive) Nugget (see below) and 1:1 meetings are enough 
+to interact with any developer.
+
 
 ### Nugget
 
