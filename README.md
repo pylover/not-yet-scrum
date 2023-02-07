@@ -146,7 +146,7 @@ with Given(
 
 ### Naming
 
-I folow the [Nomanclature](https://en.wikipedia.org/wiki/Nomenclature) for the 
+I follow the [Nomanclature](https://en.wikipedia.org/wiki/Nomenclature) for the 
 naming purpose.
 
 
